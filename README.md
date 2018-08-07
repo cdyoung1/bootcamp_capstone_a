@@ -42,6 +42,7 @@ Front-end
   * HTML/CSS
   * Javascript/jQuery
   * Anime.js
+  * Lodash.js
   
 APIs
   * Nutritionix
