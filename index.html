@@ -21,7 +21,7 @@
         <h3>Enter your username and password:</h3>
         <form id="login-input">
           <input type="text" placeholder="username" name="login-username" id="login-username" autocomplete="off" required/>
-          <input type="text" placeholder="password" name="login-password" id="login-password" autocomplete="off" required/>
+          <input type="password" placeholder="password" name="login-password" id="login-password" autocomplete="current-password" minlength="4" maxlength="20" size="20" required>
           <input type="submit" name="submit" id="submit" />
         </form>
       </div>
@@ -37,6 +37,7 @@
         <li><a href="#">Nutrition Report</a></li>
         <li><a href="#">Progress</a></li>
         <li><a href="#">Fitness Log</a></li>
+        <li><button id="sign-out-btn"><i class="fas fa-sign-out-alt"></i></button></li>
       </ul>
     </div>
   </div>
