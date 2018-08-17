@@ -12,6 +12,7 @@ db.settings({ timestampsInSnapshots: true });
 
 const loginForm = $('#login-input');
 const users = db.collection('users');
+<<<<<<< HEAD
 let username, findUser, selectedDate, dateValue, dateSelector;
 function padMonth (month){
     if((month.getMonth()+1)<10){
