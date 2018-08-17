@@ -18,14 +18,16 @@
     <div id="login-bg"></div>
     <div id="login-content">
       <div id="login-input-container">
-        <h3>Enter your username:</h3>
+        <h3>Enter your username and password:</h3>
         <form id="login-input">
           <input type="text" placeholder="username" name="login-username" id="login-username" autocomplete="off" required/>
+          <input type="text" placeholder="password" name="login-password" id="login-password" autocomplete="off" required/>
           <input type="submit" name="submit" id="submit" />
         </form>
       </div>
     </div>
   </div>
+
   <div id="nav">
     <h3>My Nutrition Tracker</h3>
     <div id="nav-container">
@@ -46,7 +48,11 @@
     <div id="date-row">
       <div id="date-container">
         <div class="prev arrow"><i class="fas fa-arrow-left"></i></div>
-        <div id="date">Date</div>
+        <div id="date">
+          <form id="date-picker">
+            <input type="date" name="date-selector" id="date-selector"/>
+          </form>
+        </div>
         <div class="next arrow"><i class="fas fa-arrow-right"></i></div>
         <div id="calendar"><i class="fas fa-calendar-alt"></i></div>
       </div>
