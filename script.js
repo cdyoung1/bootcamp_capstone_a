@@ -518,6 +518,8 @@ $('#submit-selected').on('click',function(e){
                 }   
                 else{
                     dailyFoods.push(e);
+                    console.log('here',e)
+                    dateDoc
                     dailyFoods[dailyFoods.length-1].arrayIndex = dailyFoods.length-1;
                 }
                 breakfastFoods.push(e);
