@@ -11,9 +11,7 @@ Web application to help user track daily food intake and exercise. Main features
 5. Copy and  paste your project code snippet into your HTML file
 6. In the project directory, install Firebase CLI by entering `npm install -g firebase-tools`
 7. Sign into your Google account by entering `firebase login`
-8. Initialize a Firebase project and local sever by entering 
-`firebase init`
-`firebase serve`
+8. Initialize a Firebase project
 
 ## Features
 Home Page:
